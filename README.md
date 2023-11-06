@@ -27,8 +27,9 @@ A brief description of your project. What does it do? Why did you build it? What
 - first image is larger than others
 
 ## Live Demo
+[](https://6548eeca3f662007ff728005--profound-paprenjak-b30c44.netlify.app/)
 
-<!-- https://6548eeca3f662007ff728005--profound-paprenjak-b30c44.netlify.app/-->
+<!-- -->
 
 ## Installation
 You can install locally
