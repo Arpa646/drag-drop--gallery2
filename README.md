@@ -8,9 +8,11 @@
 
 ## Tech Stack
 
-**React JS,TypeScript,matarial Ui 
-Used Grid-react-dnd for image drag drop
-**
+**Client:**
+## Live Demo [React js](https://vitejs.dev/)
+## Live Demo [TypeScript](https://www.typescriptlang.org/)
+## Live Demo [matarial Ui](https://mui.com/material-ui/)
+## Live Demo [Grid-react-dnd](https://www.npmjs.com/package/react-grid-dnd)
 
 
 ## Description
