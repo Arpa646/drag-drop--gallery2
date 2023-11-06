@@ -23,10 +23,10 @@ This project is an image gallery that offers a user-friendly experience. Users c
 
 
 ## Features
+**Reorder Images:**
+**Multi-Select:**
+**Delete  Images:**
 
-- You Can Image reordering by drag and drop
-- select multiple Image for Image delete
-- first image is larger than others
 
 
 ## Live Demo [Link](https://6548eeca3f662007ff728005--profound-paprenjak-b30c44.netlify.app/)
