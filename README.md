@@ -16,7 +16,7 @@
 
 
 ## Description
-This project is an image gallery that offers a user-friendly experience. Users can effortlessly reorder images by simply dragging and dropping them into their desired positions. When hovering over an image, a convenient indicator checkbox becomes visible, enabling users to select multiple images simultaneously. This multi-select feature is a valuable addition, as it empowers users to efficiently manage their image gallery. Once they've made their selections, the option to delete the chosen images is readily available, enhancing the overall user experience and providing a simple yet powerful tool for image organization and management.
+This project is an image gallery that offers a user-friendly experience. Users can effortlessly reorder images by simply dragging and dropping them into their desired positions. You can set fiture image actually first image is feature image feature image is larger then others When hovering over an image, a convenient indicator checkbox becomes visible, enabling users to select multiple images simultaneously. This multi-select feature is a valuable addition, as it empowers users to efficiently manage their image gallery. Once they've made their selections, the option to delete the chosen images is readily available, enhancing the overall user experience and providing a simple yet powerful tool for image organization and management.
 
 ## Picture
 ![](https://raw.githubusercontent.com/Arpa646/drag-drop--gallery2/main/public/banner.png)
@@ -26,6 +26,7 @@ This project is an image gallery that offers a user-friendly experience. Users c
 **Reorder Images:**
 **Multi-Select:**
 **Delete  Images:**
+**Set feature image  Images:**
 
 
 
