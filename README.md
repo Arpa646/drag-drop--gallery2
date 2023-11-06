@@ -3,13 +3,14 @@
 
 # Drag-drop image gallery
 
-![Project Banner](banner.jpg)
+
 
 
 ## Tech Stack
 
-**Client:** React JS,TypeScript,matarial Ui 
+**React JS,TypeScript,matarial Ui 
 Used Grid-react-dnd for image drag drop
+**
 
 
 ## Description
@@ -17,7 +18,7 @@ Used Grid-react-dnd for image drag drop
 A brief description of your project. What does it do? Why did you build it? What problem does it solve?
 
 ## Picture
-![](https://github.com/Arpa646/chatApp-frontend/blob/main/screenshort/login2.png)
+![](https://raw.githubusercontent.com/Arpa646/drag-drop--gallery2/main/public/banner.png)
 
 
 ## Features
@@ -26,8 +27,8 @@ A brief description of your project. What does it do? Why did you build it? What
 - select multiple Image for Image delete
 - first image is larger than others
 
-## Live Demo
-[Link](https://6548eeca3f662007ff728005--profound-paprenjak-b30c44.netlify.app/)
+
+## Live Demo [Link](https://6548eeca3f662007ff728005--profound-paprenjak-b30c44.netlify.app/)
 
 <!-- -->
 
