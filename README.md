@@ -16,8 +16,7 @@
 
 
 ## Description
-
-A brief description of your project. What does it do? Why did you build it? What problem does it solve?
+Its a image gallery.Here You can reorder any image using drag and drop.if you home on any image you can see a indicator checkbox by this you can select multiple image.After select you can delete multiple image.
 
 ## Picture
 ![](https://raw.githubusercontent.com/Arpa646/drag-drop--gallery2/main/public/banner.png)
