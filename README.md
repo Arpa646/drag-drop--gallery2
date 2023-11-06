@@ -9,10 +9,10 @@
 ## Tech Stack
 
 **Client:**
-## Live Demo [React js](https://vitejs.dev/)
-## Live Demo [TypeScript](https://www.typescriptlang.org/)
-## Live Demo [matarial Ui](https://mui.com/material-ui/)
-## Live Demo [Grid-react-dnd](https://www.npmjs.com/package/react-grid-dnd)
+- [React js](https://vitejs.dev/): A JavaScript library for building user interfaces.
+- [TypeScript](https://www.typescriptlang.org/): A typed superset of JavaScript that compiles to plain JavaScript.
+- [Material-UI](https://mui.com/material-ui/): A popular React UI framework for building beautiful web applications.
+- [Grid-react-dnd](https://www.npmjs.com/package/react-grid-dnd): A library for creating draggable grid layouts in React.
 
 
 ## Description
