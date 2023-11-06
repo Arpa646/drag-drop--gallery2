@@ -16,7 +16,7 @@
 
 
 ## Description
-Its a image gallery.Here You can reorder any image using drag and drop.if you home on any image you can see a indicator checkbox by this you can select multiple image.After select you can delete multiple image.
+This project is an image gallery that offers a user-friendly experience. Users can effortlessly reorder images by simply dragging and dropping them into their desired positions. When hovering over an image, a convenient indicator checkbox becomes visible, enabling users to select multiple images simultaneously. This multi-select feature is a valuable addition, as it empowers users to efficiently manage their image gallery. Once they've made their selections, the option to delete the chosen images is readily available, enhancing the overall user experience and providing a simple yet powerful tool for image organization and management.
 
 ## Picture
 ![](https://raw.githubusercontent.com/Arpa646/drag-drop--gallery2/main/public/banner.png)
