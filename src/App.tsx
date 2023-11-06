@@ -94,42 +94,50 @@ export default function App() {
 
   return (
     <Box className="App">
-      <div className="nav">
-        <div className="hori">
-          {selectedIds.length >= 1 ? (
-            // Display when one or more images are selected
-            <div className="display">
-              <h3>
-                <input type="checkbox" checked />
-                {selectedIds.length} images selected
-              </h3>
-              <b className="delete" onClick={handleDeleteFile}>
-                Delete Files
-              </b>
-            </div>
-          ) : (
-            // Display when no images are selected
-            <h3>Gallery</h3>
-          )}
-        </div>
-      </div>
+    <div className="nav">
+      <div className="horizontal">
+        {selectedIds.length >= 1 ? (
+          // Display when one or more images are selected
+          <div className="display">
+            <h3>
+              <input type="checkbox" checked />
+              {selectedIds.length} images selected
+            </h3>
+            <b className="delete" onClick={handleDeleteFile}>
+              Delete Files
+            </b>
 
-      <GridContextProvider onChange={onChange}>
-        <GridDropZone
-          className="margin"
-          id="items"
-          boxesPerRow={boxesPerRow}
-          rowHeight={267}
-          style={{ height: 280 * Math.ceil(items.length / boxesPerRow) }}
-        >
-          {items.map(({ id, image, checked }, index) => (
-            <GridItem key={id}>
+          </div>
+         
+        ) : (
+          // Display when no images are selected
+          <div>
+
+<h3 className="d">gallery</h3>
+          </div>
+        )}
+      </div>
+    </div>
+  
+    <GridContextProvider onChange={onChange}>
+      <GridDropZone
+        className="margin"
+        id="items"
+        boxesPerRow={boxesPerRow}
+        rowHeight={267}
+        style={{ height: 280 * Math.ceil(items.length / boxesPerRow) }}
+      >
+        {items.map(({ id, image, checked }, index) => (
+          <GridItem key={id}>
+           
+            
+      
               <Card
                 sx={{ marginRight: index === 0 ? 2 : 2, marginBottom: 2 }}
-                className={`border ${checked ? 'marked' : ''}`}
+                className={` cardDesign ${checked ? 'marked' : ''}`}
               >
                 <input
-                  className={`j border ${checked ? 'marked j2' : ''}`}
+                  className={`j check-cursor ${checked ? 'marked j2' : ''}`}
                   type="checkbox"
                   checked={checked}
                   onChange={handleCheckboxChange(id)}
@@ -137,6 +145,7 @@ export default function App() {
                   id={id.toString()}
                 />
                 <CardMedia
+                className="s"
                   component="img"
                   width="100%"
                   height={index === 0 ? "260px" : "170px"}
@@ -146,10 +155,21 @@ export default function App() {
                   }}
                 />
               </Card>
-            </GridItem>
-         ) )}
-        </GridDropZone>
-      </GridContextProvider>
-    </Box>
+
+
+       
+
+       
+          </GridItem>
+       ) )}
+  
+        {/* Thank You message */}
+       
+      </GridDropZone>
+      
+    </GridContextProvider>
+   
+  </Box>
+  
   );
 }

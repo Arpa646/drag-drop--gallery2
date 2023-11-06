@@ -1,3 +1,8 @@
+
+body{
+  background-color: rgba(135, 207, 235, 0.225);
+}
+
 .App {
   font-family: sans-serif;
 background-color: #fff;
@@ -5,30 +10,24 @@ border-radius: 10px;
 padding: 20px;
 height: 100vh;
 
-  /* display: grid;
-  bor
-  grid-template-columns: repeat(4, 220px);*/
   max-width: 1200px;
 
   margin: 0 auto;
+  box-shadow: 50x 50x 4px 40x black;
 }
-body{
-  background-color: rgba(135, 207, 235, 0.225);
-}
-.s{
-  background-color: #fff;
-}
-/* .griditemUI {
-  background-color: #fff;
-  border: 2px solid #fff;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  width: 100%;
-  cursor: -webkit-grab;
-} */
 
-.container {
-  background-color: #fff;
+
+
+
+.horizontal{
+  border-bottom: 1px solid black;
 }
+.x{
+  padding: 60px;
+  background-color: blue;
+}
+
+
 
 .j{
   position: absolute;
@@ -37,18 +36,32 @@ body{
 
  display: none;
 
+
 }
-.border:hover .j{ 
+.check-cursor{
+  cursor: pointer;
+
+}
+
+.cardDesign {
+  /* Set the initial opacity and transition properties */
+  opacity: 1;
+  cursor: grab;
+  transition: opacity 0.8s ease; /* Adjust the duration and timing function as needed */
+}
+
+.cardDesign:hover {
+  opacity: 0.5; /* Change the opacity on hover */
+}
+.cardDesign:hover .j{ 
   display: block;
 
 }
 
-.border:hover {
-  opacity: 0.5;
-}
 
 .marked {
   opacity: 0.5;
+  
   /* Add your custom styling for selected items here */
 /* Example: Red border for marked items */
 
@@ -62,9 +75,7 @@ body{
 .d{
  opacity: 0.7;
 }
-.border{
-cursor:-webkit-grab;
-}
+
 .delete{
 cursor: pointer;
 color: red;
@@ -81,35 +92,31 @@ color: red;
 
 }
 .nav{
-  height: 60px;
+
  
 }
 
 
 
-.first-image {
 
-
-border: 1px solid black;
-
-
-}
 .ja{
  border: 2px solid black;
  height: 500px;
 }
-.other-images {
-  grid-column: span 1;
-  grid-row: span 1;
- 
 
-}
 
 .margin{
-background-color: #fff;
+background-color: #ffffff;
 margin-top: 10px;
+cursor: grab;
+padding: 10px;
+
+
 
 }
-.hori{
-  border-bottom: 1px solid black;
+
+
+.display2{
+  background-color: aqua;
+
 }
